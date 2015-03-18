@@ -147,7 +147,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
-                            <button type="button" class="btn btn-primary custom-fr-bm">Edit</button>
+                            <button type="button" class="btn btn-primary custom-fr-bm popup-button">Script</button>
                         </div>
                         <div class="col-lg-6 custom-fr-bt">
                             <button type="button" class="btn btn-danger custom-fr-bm">Submit/Next</button>
@@ -155,6 +155,23 @@
                     </div>
                 </form>
             </div>
+            <div class="popup">
+                <div class="close">x</div>
+                <p>Guten Tag, *Eigenen Namen nennen* am Aparat.<br>
+Spreche ich mit dem Herr Müller?<br>
+/wenn nein, dann nach Herr Müller fragen...<br>
+/wenn ja:<br>
+Herr Müller, ich melde mich von der Online Aphoteke, Sie haben bei uns die *Produkt nennen* mal bestellt.
+Wir haben jetzt ein Sonderangebot für unsere Kunden und da wären die *gleiches produkt nennen* für Sie dieses mal nur noch *preis nennen*.
+Natürlich gilt das Sonderngebot mit Rabat auch für die anderen Artikel die wir haben und auch für die anderen Packungen.
+Und da wollten wir sehen ob sie eventuel am Sonderangebot mit Rabat Interesse hätten Herr Müller!? *warten*<br>
+/Ohne Interesse Argument nennen:<br>
+-Bei den grösseren Packungen kann ich Ihnen als Telefonverkäufer sogar noch einen rabat dazu schlagen, bis zu 20% Gratis Pillen für Sie Herr Müller.<br>
+/Bei Interesse Verkauf schließen:<br>
+- Produkt mit Menge abmachen, Daten und Infos bestätigen. Mail, Adresse, Visa/Wire, Produkt mit menge und Preis.<br>
+</p>
+            </div>
+            <div id="black-overlay"></div>
             <!-- /.container-fluid -->
 
         </div>
@@ -162,5 +179,24 @@
 
     </div>
     <!-- /#wrapper -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".popup-button").click(function(){
+                $(".popup").fadeIn("slow");
+                 $("#black-overlay").fadeIn("slow");
+            });
+            $(".close").click(function(){
+                $(".popup").fadeOut(300);
+                 $("#black-overlay").fadeOut(300);
 
+            });
+            $("#black-overlay").click(function(){
+                $(".popup").fadeOut(300);
+                 $("#black-overlay").fadeOut(300);
+
+            });
+
+        });
+    </script>
    <?php include 'frontend_footer.php';?>

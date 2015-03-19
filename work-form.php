@@ -91,51 +91,61 @@
                 <form>
                     <div class="row custom-hr">
                         <div class="col-lg-4">
-                            <label class="custom-lbl">Id: </label>
+                            <label class="custom-lbl">Date: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">ID: </label>
                             <input type="text" class="form-control">
                         </div>
                         <div class="col-lg-4">
                             <label class="custom-lbl">Name: </label>
                             <input type="text" class="form-control">
                         </div>
+                    </div>
+                    <div class="row custom-hr">
                         <div class="col-lg-4">
-                            <label class="custom-lbl">Email: </label>
+                            <label class="custom-lbl">E-mail: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">Last Order dt: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">Last Order ID: </label>
                             <input type="text" class="form-control">
                         </div>
                     </div>
                     <div class="row custom-hr">
                         <div class="col-lg-4">
-                            <label class="custom-lbl">Last Order Date: </label>
+                            <label class="custom-lbl">No. of orders: </label>
                             <input type="text" class="form-control">
                         </div>
-                        <div class="col-lg-4">
-                            <label class="custom-lbl">Last Order Id: </label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="col-lg-4">
-                            <label class="custom-lbl">No. of Orders: </label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div>
-                    <div class="row custom-hr">
                         <div class="col-lg-4">
                             <label class="custom-lbl">Phones: </label>
                             <input type="text" class="form-control">
                         </div>
                         <div class="col-lg-4">
-                            <label class="custom-lbl">Address: </label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="col-lg-4">
-                            <label class="custom-lbl">Cities: </label>
+                            <label class="custom-lbl">Addresses: </label>
                             <input type="text" class="form-control">
                         </div>
                     </div>
                     <div class="row custom-hr">
                         <div class="col-lg-4">
+                            <label class="custom-lbl">Cities: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">Zips: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
                             <label class="custom-lbl">Countries: </label>
                             <input type="text" class="form-control">
                         </div>
+                    </div>
+                     <div class="row custom-hr">
                         <div class="col-lg-4">
                             <label class="custom-lbl">Payment: </label>
                             <input type="text" class="form-control">
@@ -144,9 +154,33 @@
                             <label class="custom-lbl">Items: </label>
                             <input type="text" class="form-control">
                         </div>
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">Amount: </label>
+                            <input type="text" class="form-control">
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6">
+                    <div class="row custom-hr">
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">CC_number: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">CC_name: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
+                            <label class="custom-lbl">CC_year: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row custom-hr">
+                        <div class="col-lg-4">
+                             <label class="custom-lbl">CC_month: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row custom-nt">
+                        <div class="col-lg-6 ">
                             <button type="button" class="btn btn-primary custom-fr-bm popup-button">Script</button>
                         </div>
                         <div class="col-lg-6 custom-fr-bt">

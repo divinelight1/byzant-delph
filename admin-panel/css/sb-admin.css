@@ -297,7 +297,7 @@ ul.custom-lst li {
 
 .popup{
         display: none;
-        position: absolute;
+        position: fixed;
         top: 30%;
         left: 25%;
         width: 50%;
@@ -315,7 +315,7 @@ ul.custom-lst li {
 }
 #black-overlay{
         display: none;
-        position: absolute;
+        position: fixed;
         top: 0%;
         left: 0%;
         width: 100%;
@@ -325,15 +325,16 @@ ul.custom-lst li {
         -moz-opacity: 0.8;
         opacity:.80;
         filter: alpha(opacity=80);
+
 }
 .close{
     background: #606061;
     color: #000;
     line-height: 20px;
     position: absolute;
-    right: 1px;
+    right: 8px;
     text-align: center;
-    top: 1px;
+    top: 5px;
     width: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -346,4 +347,7 @@ ul.custom-lst li {
 }
 .popup p{
     padding-top: 15px;
+}
+.custom-nt{
+    margin-top: 15px;
 }
